@@ -7,10 +7,10 @@ import(
 type elemenType int
 
 const(
-	Integer elemenType = iota
-	Char
-  IncreasingInteger  
-  IncreasingChar
+Integer elemenType = iota
+Char
+IncreasingInteger  
+IncreasingChar
 )
 
 type box struct{

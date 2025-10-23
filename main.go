@@ -7,7 +7,15 @@ func main(){
 
 	// b.PrintPattern()
 
-	s:=patterns.NewStarPattern(4,patterns.InvertedTrianglePattern)
+	// s:=patterns.NewStarPattern(4,patterns.InvertedTrianglePattern)
 
-	s.PrintPattern()
+	// s.PrintPattern()
+
+	// py:=patterns.NewPyramidPattern(4)
+
+	// py.PrintPattern()
+
+	d:=patterns.NewDiamond(4,patterns.HollowDiamond)
+
+	d.PrintPattern()
 }
