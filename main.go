@@ -1,6 +1,9 @@
 package main
 
-import "DSAByShradhaMam/patterns"
+import (
+	"DSAByShradhaMam/binary"
+	"fmt"
+)
 
 func main(){
 	// b:=patterns.NewSquarePatternBox(3,4,patterns.IncreasingChar)
@@ -15,7 +18,9 @@ func main(){
 
 	// py.PrintPattern()
 
-	d:=patterns.NewDiamond(4,patterns.HollowDiamond)
+	// d:=patterns.NewDiamond(4,patterns.HollowDiamond)
 
-	d.PrintPattern()
+	// d.PrintPattern()
+
+	fmt.Println(binary.BinaryToDecimal(101010))
 }
